@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到柠檬主页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="index">
+    <audio src="etc/" id="audio"></audio>
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="user-form">
+            <div class="bg-user">
+                <div class="top"><img src="images/背景.png"></div>
+                <div class="circle"><img src="http://q1.qlogo.cn/g?b=qq&nk=1926768841&s=640"></div>
+                <p class="user-title">QQ</p>
+                <p class="user-qq">客服:1926768841</p>
+                <div class="idcard"><img src="images/svip.png"></div>
+                <div class="zan"><img src="images/zan.png"></div>
+                <!--<p class="sign-text"><img src="images/person.jpeg">&nbsp;神&nbsp;|&nbsp;巨蟹座&nbsp;|&nbsp;中国&nbsp;</p>-->
+               <!-- <p class="sign-text"><img src="images/sign.jpeg"><a href="https://www.x6g.com/">-->
+                     <!--当前时间-->
+    <li>
+        <tbody><tr class="altbg2" align="left">
+            <td class="header" align="left">
+           <!-- 当前时间：-->
+                    <p>
+                    <script language="JavaScript" type="text/JavaScript">
+                    var day="";
+                    var month="";
+                    var ampm="";
+                    var ampmhour="";
+                    var myweekday="";
+                    var year="";
+                    mydate=new Date();
+                    myweekday=mydate.getDay();
+                    mymonth=mydate.getMonth()+1;
+                    myday= mydate.getDate();
+                    myyear= mydate.getYear();
+                    year=(myyear > 200) ? myyear : 1900 + myyear;
+                    if(myweekday == 0)
+                    weekday=" 星期日 ";
+                    else if(myweekday == 1)
+                    weekday=" 星期一 ";
+                    else if(myweekday == 2)
+                    weekday=" 星期二 ";
+                    else if(myweekday == 3)
+                    weekday=" 星期三 ";
+                    else if(myweekday == 4)
+                    weekday=" 星期四 ";
+                    else if(myweekday == 5)
+                    weekday=" 星期五 ";
+                    else if(myweekday == 6)
+                    weekday=" 星期六 ";
+                    document.write(year+"年"+mymonth+"月"+myday+"日 "+weekday);
+                    </script></li>
+                       <head>
+                         <meta charset="UTF-8">
+                         <meta name="viewport"
+                        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                     <title>Document</title>
+                </head>
+                <body>
+                <div id="div1"></div>
+                    <script>
+                     function time() {
+                         var date = new Date();
+                         var hour = date.getHours();
+                         var minutes = date.getMinutes();
+                         var seconds = date.getSeconds();
+                         var str = "时间" + hour + "时" + minutes + "分" + seconds + "秒";
+                         var div1 = document.getElementById("div1");
+                 div1.innerHTML = str;
+                                    }
+                         setInterval(time,1000);
+                    </script>
+                <!--当前时间-->
+                </a></p>
+               <!-- <p class="sign-text"><img src="images/qzone.jpeg"><a href="https://mp.qzone.qq.com/u/1926768841?uin=1926768841&is_famous_space=0&brand_flag=0">&nbsp;Ta的空间</a></p>
+                <p class="sign-text"><img src="images/camera.jpeg">&nbsp;精选照片</p>-->
+                <!--<div class="border-img"><img src="images/101.gif"></div>-->
+                <button class="btn-blue" ><a href="https://wzrycb.github.io/yu/">柠檬导航</a></button>
+                <button class="btn-music" ><a href="http://yyzxcb.asia/">QQ查绑</a></button>
+                 <button class="btn-music" ><a href="http://yunyu.asia/">QQ签到工具</a></button>
+                 <button class="btn-music" ><a href="http://wzzlcb.asia/">vip视频解析</a></button>
+                 <button class="btn-music" ><a href="http://nmchw.asia/">壁纸下载</a></button>
+                 <button class="btn-music" ><a href="https://baihey.github.io/hpjyzt/">和平精英字体颜色</a></button>
+                 <button class="btn-music" ><a href="https://baihey.github.io/tx/">国庆头像生成</a></button>
+                 <button class="btn-music" ><a href="https://img.wang/user/yunyu/?list=images&sort=date_desc&page=3&seek=5AdcB">王者荣耀全英雄皮肤壁纸</a></button>
+                  <button class="btn-music" id="music">公告</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/sweetalert.min.js"> </script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
